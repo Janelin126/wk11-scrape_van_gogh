@@ -36,3 +36,7 @@ for line in error_log:
      error_file.write(line)
      error_file.write('\n')
 error_file.close()
+
+# 5. run the script using: python3 generate_link_list(file name).py
+#links show on terminal are the scraped data, copy and paste in url box.
+# if you want to download the images, use: xargs -n 1 curl -O < download.txt
